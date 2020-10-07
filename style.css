@@ -55,14 +55,16 @@ h3{
 }
 .vibor{
 	display: grid;
-	width: 700px;
+	width: 600px;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 	grid-template-rows: 1fr;
 	margin: auto;
 	margin-top: 25px;
+	grid-gap: 25px;
 }
 .itemvib{
 	color: #dfdfdf;
+	transition: color 0.2s linear;
 }
 h1{
 	font-size: 94px;
@@ -113,7 +115,7 @@ h1{
 	padding-bottom: 5px;
 	outline: none;
 	color: #dfdfdf;
-	
+	transition: background-color 0.3s linear;
 	border: 1px solid #efefef;
 }
 .tochki{
@@ -148,7 +150,7 @@ h2{
 	padding-top: 50px;
 }
 .col{
-	color: #afafaf;
+	color: #999999;
 	margin-top: 25px;
 	font-weight: bold;
 }
@@ -172,14 +174,12 @@ h2{
 	clear: both;
 }
 .mas{
-	color: #afafaf;
+	color: #969696;
 	font-weight: normal;
 	width: 400px;
 	float: left;
 }
-.load{
 
-}
 .down{
 	background-color: transparent;
 	width: 125px;
@@ -188,6 +188,7 @@ h2{
 	padding-bottom: 5px;
 	outline: none;
 	border: 1.5px solid #9364c3;
+	transition: color, background-color 0.2s linear;
 }
 .lis{
 	height: 125px;
@@ -201,8 +202,8 @@ h2{
 	margin-top: 25px;
 	text-align: center;
 }
-.m1{
-	color: #a571da;
+.itemkos{
+	transition: color 0.2s linear;
 }
 .mnogi{
 	display: grid;
@@ -269,7 +270,7 @@ h2{
 }
 .em{
 	margin-top: 50px;
-	color: #bfbfbf;
+	color: #969696;
 }
 .pop{
 	border: 1.5px solid #9364c3;
@@ -288,7 +289,7 @@ h2{
 	font-size: 18px;
 }
 .om{
-	color: #dfdfdf;
+	color: #969696;
 	font-size: 14px;
 }
 .talb{
@@ -309,7 +310,7 @@ h2{
 .coli{
 	color: #afafaf;
 	border: 2px solid #afafaf;
-	margin-top: 25px;
+	margin-top: 35px;
 }
 .compan{
 	width: 800px;
@@ -470,7 +471,7 @@ h2{
 	margin: auto;
 }
 .kas{
-	color: #bfbfbf;
+	color: #8a8a8a;
 	font-size: 16px;
 }
 .mor{
@@ -698,7 +699,7 @@ h2{
 	color: #bfbfbf;
 }
 .put{
-	color: #afafaf;
+	color: #797979;
 	padding-left: 18px;
 	padding-top: 18px;
 }
@@ -733,12 +734,12 @@ h2{
 	width: 10px;
 	background-color: transparent;
 	border-radius: 10px;
-	border: 2px solid #bfbfbf;
+	border: 2px solid #797979;
 	float: left;
 	margin-top: 10px;
 }
 .divitel{
-	color: #bfbfbf;
+	color: #797979;
 	margin-top: 20px;
 	width: 100px;
 	margin-left: 35px;
@@ -841,7 +842,7 @@ h2{
 	height: 35px;
 }
 .lokca{
-	color: #bfbfbf;
+	color: #797979;
 	float: left;
 	margin-top: 6px;
 	margin-left: 15px;
@@ -855,9 +856,7 @@ h2{
 	margin-top: 50px;
 
 }
-.minp{
 
-}
 .blinp{
 	display: grid;
 	height: 50px;
@@ -865,21 +864,21 @@ h2{
 	grid-gap: 25px;
 }
 .minp{
-	border: 1.5px #dfdfdf solid;
+	border: 1.5px #aaaaaa solid;
 	border-radius: 3px;
-	color: #dfdfdf;
+	color: #797979;
 	outline: none;
 	padding-left: 15px;
 }
 .inp, textarea{
 	margin-top: 25px;
 	width: 632px;
-	border: 1.5px #dfdfdf solid;
+	border: 1.5px #aaaaaa solid;
 	border-radius: 3px;
 	height: 50px;
 	padding-left: 15px;
 	outline: none;
-	color: #dfdfdf;
+	color: #797979;
 }
 textarea {
     padding-top: 15px;
@@ -928,12 +927,12 @@ textarea {
 }
 .inpi{
 	margin-top: 25px;
-	border: 1.5px #dfdfdf solid;
+	border: 1.5px #aaaaaa solid;
 	border-radius: 3px;
 	height: 50px;
 	padding-left: 15px;
 	outline: none;
-	color: #dfdfdf;
+	color: #797979;
 	width: 380px;
 }
 .melok{
@@ -963,4 +962,23 @@ textarea {
 	margin-top: 35px;
 	color: #666666;
 	float: left;
+}
+.itemvib:hover{
+	color: #9966cb;
+}
+.more:hover{
+	background-color: #afafaf;
+}
+.down:hover{
+	background-color: #9364c3;
+	color: white;
+}
+.itemkos:hover{
+	color: #a571da;
+}
+.tochko{
+	width: 100px;
+	margin: auto;
+	margin-top: 50px;
+	height: 25px;
 }
